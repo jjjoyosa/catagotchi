@@ -67,6 +67,7 @@ body {
     border: none;
     outline:auto;
     overflow: hidden;
+    outline-color: black;
 }
 .circle-button img {
     width: 100%; /* Ensures the image fills the button */
