@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>Catagotchi</title>
+</head>
+<body>
+<div id="timer">Time: 0s</div>
+<div class="button-container">
+    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+        <button class="circle-button" id="button1">
+            <img src="./images/x.png" alt="Button 1" />
+        </button>
+    </a>
+    <a href="https://web.telegram.org" target="_blank" rel="noopener noreferrer">
+        <button class="circle-button" id="button2">
+            <img src="./images/tg.png" alt="Button 2" />
+        </button>
+    </a>
+    <a href="https://pump.fun" target="_blank" rel="noopener noreferrer">
+        <button class="circle-button" id="button3">
+            <img src="./images/pump.png" alt="Button 3" />
+        </button>
+    </a>
+    <a href="https://dexscreener.com/solana" target="_blank" rel="noopener noreferrer">
+        <button class="circle-button" id="button3">
+            <img src="./images/dex.png" alt="Button 3" />
+        </button>
+    </a>
+</div>
+<br><br><br><br>
+<h1>CATAGOTCHI</h1>
+<h4>CA:</h4>
+<br>
+<img id="picture" src="./images/cat.gif">
+<br>
+<div class="progress-container">
+    <div class="progress-label">Cleanliness:</div>
+    <progress id="cleanProgress" class="nes-progress" value="100" max="100"></progress>
+    <div class="progress-label">Hunger:</div>
+    <progress id="feedProgress" class="nes-progress" value="100" max="100"></progress>
+    <div class="progress-label">Affection:</div>
+    <progress id="petProgress" class="nes-progress" value="100" max="100"></progress>
+</div>
+<br>
+<div class="nes-container with-title">
+    <span class="title">What to do?</span>
+    <button class="nes-btn" id="cleanBtn">Clean</button>
+    <button id="feedBtn" class="nes-btn">Feed</button>
+    <button id="petBtn" class="nes-btn">Pet</button>
+    <br>    <br>
+    <div class="progress-label">Energy:</div>
+    <progress id="energyProgress" class="nes-progress" value="100" max="100"></progress>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

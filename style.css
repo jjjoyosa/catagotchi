@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    font-size: 10px; /* Smaller font size for everything */
+}
+#picture {
+    width: 150px;
+    height: auto;
+}
+.progress-container {
+    width: 325px; /* Smaller container width */
+    margin: 5px 0; /* Smaller margin */
+}
+.nes-progress{
+    height: 25px;
+}
+.progress-label {
+    font-size: 10px; /* Smaller label font size */
+    margin-bottom: 3px; /* Smaller margin */
+}
+#timer {
+    position: absolute;
+    top: 5px; /* Adjusted position */
+    right: 5px; /* Adjusted position */
+    font-size: 14px; /* Smaller font size */
+}
+.nes-dialog {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px; /* Smaller padding */
+    background-color: white;
+    border: 1px solid black; /* Smaller border */
+    z-index: 10;
+}
+.dialog-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 5px; /* Smaller margin */
+}
+.nes-btn {
+    width: 75px; /* Smaller button width */
+    font-size: 8px; /* Smaller button font size */
+}
+.button-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+}
+.circle-button {
+    width: 4vh;
+    height: 4vh;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: none;
+    outline:auto;
+    overflow: hidden;
+}
+.circle-button img {
+    width: 100%; /* Ensures the image fills the button */
+    height: auto;
+}
