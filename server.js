@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname, '/')));
 
 // Route for the homepage
 app.get('/', (req, res) => {
-  res.send("Hello");
+  res.sendFile(path.join(__dirname, 'try.html')); // Assuming your HTML file is named index.html
 });
 
 // Start the server
