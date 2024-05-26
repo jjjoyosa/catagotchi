@@ -9,12 +9,11 @@ body {
     font-size: 10px; /* Smaller font size for everything */
 }
 #picture {
-    width: 150px;
+    width: 200px;
     height: auto;
 }
 .progress-container {
     width: 325px; /* Smaller container width */
-    margin: 5px 0; /* Smaller margin */
 }
 .nes-progress{
     height: 25px;
@@ -66,8 +65,8 @@ body {
     margin-right: 10px;
     border: none;
     outline:auto;
-    overflow: hidden;
     outline-color: black;
+    overflow: hidden;
 }
 .circle-button img {
     width: 100%; /* Ensures the image fills the button */
