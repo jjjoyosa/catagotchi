@@ -33,7 +33,7 @@
         const startDialog = document.createElement('div');
         startDialog.className = 'nes-dialog is-rounded is-dark';
         startDialog.innerHTML = `
-            <p class="title">Welcome to CATAGOTCHI!</p>
+            <p class="title">Welcome to KITTYGOTCHI!</p>
             <p>Your goal is to take care of your virtual cat. Make sure to keep it clean, feed it, and pet it regularly. Once you last 25 seconds, you fucking win!</p>
             <br>
             <p>Ticker:</p>
